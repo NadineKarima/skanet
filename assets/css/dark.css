@@ -1,0 +1,111 @@
+body.dark {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+body.dark .navbar {
+    background: #1e293b;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .3);
+}
+
+body.dark .navbar .text-dark,
+body.dark .navbar .fw-semibold {
+    color: #e2e8f0 !important;
+}
+
+body.dark .btn-toggle {
+    color: #e2e8f0;
+}
+
+body.dark .card {
+    background: #1e293b;
+    color: #e2e8f0;
+    border-color: #334155;
+}
+
+body.dark .card-header {
+    background: #1e293b !important;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+body.dark .table {
+    color: #e2e8f0;
+}
+
+body.dark .table > :not(caption) > * > * {
+    background-color: transparent;
+    color: #e2e8f0;
+    border-color: #334155;
+}
+
+body.dark .table-hover > tbody > tr:hover > * {
+    background-color: #273449;
+}
+
+body.dark .table-light,
+body.dark thead {
+    background: #273449;
+    color: #e2e8f0;
+}
+
+body.dark .form-control,
+body.dark .form-select {
+    background: #273449;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+body.dark .form-control:focus,
+body.dark .form-select:focus {
+    background: #273449;
+    color: #e2e8f0;
+}
+
+body.dark .form-label,
+body.dark .text-secondary,
+body.dark .form-text {
+    color: #94a3b8 !important;
+}
+
+body.dark .modal-content,
+body.dark .offcanvas {
+    background: #1e293b;
+    color: #e2e8f0;
+}
+
+body.dark .modal-header,
+body.dark .modal-footer,
+body.dark .offcanvas-header {
+    border-color: #334155;
+}
+
+body.dark .btn-close {
+    filter: invert(1);
+}
+
+body.dark .dropdown-menu {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark .dropdown-item {
+    color: #e2e8f0;
+}
+
+body.dark .dropdown-item:hover {
+    background: #273449;
+    color: #fff;
+}
+
+body.dark .alert-info {
+    background: #1e3a52;
+    color: #bfe4ff;
+    border-color: #2c5578;
+}
+
+body.dark .alert-warning {
+    background: #4a3b0f;
+    color: #ffe9a8;
+    border-color: #6b5518;
+}
